@@ -1,8 +1,17 @@
 #include <iostream>
-using namespace std;
+
+// Function prototype
+int add(int a, int b);
+
 int main()
 {
-    cout << "Dear DBIT Class.";
-    cout << "It's end-year already!";
+    int result = add(5, 7);
+    std::cout << "Result: " << result << std::endl;
     return 0;
+}
+
+// Function definition
+int add(int a, int b)
+{
+    return a + b;
 }
