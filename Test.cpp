@@ -1,17 +1,10 @@
 #include <iostream>
+#include <string>
 
-// Function prototype
-int add(int a, int b);
-
+using namespace std;
 int main()
 {
-    int result = add(5, 7);
-    std::cout << "Result: " << result << std::endl;
+    bool notTrue = false;
+    cout << "Out put = " << notTrue << endl;
     return 0;
-}
-
-// Function definition
-int add(int a, int b)
-{
-    return a + b;
 }
