@@ -9,13 +9,13 @@ int main()
     // Addition operator '+'
     cout << "Sum of the two numbers: " << num1 + num2 << endl;
     // Subtraction operator '-'
-    cout << "Difference of the two numbers: " << num1 - num2 << endl;
+    cout << "Difference of the two numbers: " << num2 - num1 << endl;
     // Multiplication operator '*'
     cout << "Product of the two numbers: " << num1 * num2 << endl;
     // Division operator '/'
     cout << "Division of the two numbers: " << (float)(num1 / num2) << endl;
     // Modulus operator '%'
-    cout << "Remainder when divided by 2: " << num1 % num2 << endl;
+    cout << "Modulus of the two numbers: " << num1 % num2 << endl;
     // Increment operator '++'
     cout << "Increment num1 by 1 :" << ++num1 << endl;
     // Decrement operator '--'
